@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int coef_Maths=4,coef_PC=4,coef_Anglais=2 ,i=0,som_Maths=0,som_Pc=0,som_Anglais=0;
 float  note_Maths[2],note_Pc[2],note_Anglais[2],moy_Maths,moy_Pc,moy_Anglais,Mg;
-char Moussandiaye[10];
+char Nom[10];
 char saisi[20];
 float note;
 int verification()
@@ -24,7 +24,7 @@ int main ()
 {
    
          printf("veuiller entrer votre nom\n");
-         scanf("%s",&Moussandiaye[10]);
+         fgets(Nom, 10, stdin);
 
 
    
